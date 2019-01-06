@@ -184,8 +184,7 @@ clear
 echo "tunggu sebentAr... /";
 sleep 0.1;
 clear
-sleep 4
-
+sleep 2
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>" | lolcat
 echo    " (1. Info tool "
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>" | lolcat
@@ -203,8 +202,7 @@ echo    " (7. Tool TUAN B4DUT V3"
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
 echo    " (8. TOOL Cyb3r gh0st "
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
-echo    "╭─[><]"
-read -p "╰─MR_XID>" sf;
+read -p "(pilih nomornya>" sf;
 
 if [ $sf = 1 ] || [ $sf = 1 ]
 then
