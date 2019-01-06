@@ -84,6 +84,52 @@ clear
 echo 'starting tooLs... \';
 sleep 0.1;
 clear
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+cyan='\033[36;1m'
+red='\033[31;1m'
+white='\033[37;1m'
+yellow='\033[33;1m'
+clear
+toilet -f big -F gay "LOGIN TOOL"
+echo ""
+echo $yellow"MASUKAN USERNAME"
+echo $green"Whatsapp : 083851312460 Jika usr salah"
+echo ""
+echo $blue"USR NAME"
+read -p"Masukan Username: " us
+if [ $us = "xidploit" ];then
+sleep 1
+clear
+else
+clear
+toilet -f big -F gay "Salah"
+toilet -f big -F gay "bos"
+sleep 1
+clear
+sh pw+us.sh
+fi
+
+toilet -f big -F gay "LOGIN TOOL"
+echo ""
+echo $green"Masukan paswordnya bro"
+echo $yellow"Whastapp : 083851312460 jika pasword salah"
+echo ""
+echo $red"PASWORD"
+read -p"Masukan Password: " pw
+if [ $pw = "ownerxid" ];then
+sleep 1
+clear
+else
+clear
+toilet -f big -F gay "salah"
+toilet -f big -F gay "bos"
+sleep 1
+clear
+sh pw+us.sh
+fi
+
 figlet MR_XID  | lolcat
  
 echo                      " [•]===><===<>===><===<>===><===<>==><==[]"|lolcat
@@ -155,7 +201,7 @@ echo    " (6. New Tool TUAN B4DUT "
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
 echo    " (7. Tool TUAN B4DUT V3"
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
-echo.   " (8. TOOL Cyb3r gh0st "
+echo    " (8. TOOL Cyb3r gh0st "
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
 echo    "╭─[><]"
 read -p "╰─MR_XID>" sf;
