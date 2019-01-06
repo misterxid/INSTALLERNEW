@@ -194,6 +194,7 @@ echo "http://destroysquad.blogspot.com "
 fi
 if [ $sf = 2 ] || [ $sf = 2 ]
 then 
+clear 
 git clone https://github.com/4L13199/LITESPAM
 cd LITESPAM
 sleep 1
@@ -202,6 +203,7 @@ echo "langsung santet mantan :v" | lolcat
 fi
 if [ $sf = 3 ] || [ $sf = 3 ]
 then 
+clear
 git clone https://github.com/cyweb/hammer 
 cd hammer 
 chmod 7777 hammer.py
@@ -210,6 +212,7 @@ python hammer.py
 fi
 if [ $sf = 4 ] || [ $sf = 4 ]
 then 
+clear
 git clone https://github.com/sqlmapproject/sqlmap.git
 cd sqlmap
 python2 sqlmap.py
@@ -217,6 +220,7 @@ echo "terinstall bos " | lolcat
 fi 
 if [ $sf = 5 ] || [ $sf = 5 ]
 then 
+clear
 Pkg update && pkg upgrade
 pkg install python2
 pkg install git
@@ -229,6 +233,7 @@ echo "terinstall cokkk "|lolcat
 fi
 if [ $sf = 6 ] || [ $sf = 6 ]
 then 
+clear
 apt upgrade && apt update
 pkg install git lolcat
 git clone https://github.com/TUANB4DUT/DIR
@@ -239,6 +244,7 @@ echo "tidak semua website bisa " | lolcat
 fi 
 if [ $sf = 7 ] || [ $sf = 7 ]
 then 
+clear
 pkg install python python2 vim figlet curl
 pkg install php 
 pip2 install lolcat 
