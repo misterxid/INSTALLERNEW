@@ -147,13 +147,15 @@ echo    " (2. BOM SPAM "
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>" | lolcat
 echo    " (3. HAMMER DDOS "
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
-echo    " (4. SQL INJEK"
+echo    " (4. SQL MAP"
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
 echo    " (5. SPAM WHATSAPP"
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
 echo    " (6. New Tool TUAN B4DUT "
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
 echo    " (7. Tool TUAN B4DUT V3"
+echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
+echo.   " (8. TOOL Cyb3r gh0st "
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
 echo    "╭─[><]"
 read -p "╰─MR_XID>" sf;
@@ -253,6 +255,19 @@ git clone https://github.com/TUANB4DUT/TOOLSINSTALLERv3
 cd TOOLSINSTALLERv3
 sleep 1
 sh TUANB4DUT.sh
+fi
+if [ $sf = 8 ] || [ $sf = 8 ]
+then 
+clear
+pkg update && pkg upgrade -y
+pkg install figlet
+pkg install php
+pkg install python python2 vim figlet curl
+pip2 install lolcat
+pkg install git
+git clone https://github.com/cyberghost69/bima-bagus-jabang-v3
+cd bima-bagus-jabang-v3
+sh bima-bagus-jabang-v3.sh
 sleep 1
 exit
 fi
