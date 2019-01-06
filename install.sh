@@ -84,7 +84,40 @@ clear
 echo 'starting tooLs... \';
 sleep 0.1;
 clear
-
+clear
+# Variables
+b='\033[1m'
+u='\033[4m'
+bl='\E[30m'
+r='\E[31m'
+g='\E[32m'
+bu='\E[34m'
+m='\E[35m'
+c='\E[36m'
+w='\E[37m'
+endc='\E[0m'
+enda='\033[0m'
+blue='\e[1;34m'
+cyan='\e[1;36m'
+red='\e[1;31m'
+figlet "LOGIN TOOL"|lolcat
+pkg install figlet -y
+echo "\033[34;1m<===================================>"
+echo "\033[31;1mNote:usr pw chat me :083851312460"
+echo "\033[32;1mFB  : susu bendera"
+echo "\033[32;1mNICK: MR_XID"
+echo "\033[34;1m<===================================>"
+sleep 2
+python2 password.py
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+cyan='\033[36;1m'
+red='\033[31;1m'
+white='\033[37;1m'
+yellow='\033[33;1m'
+sleep 1
+echo ""
 figlet MR_XID  | lolcat
  
 echo                      " [•]===><===<>===><===<>===><===<>==><==[]"|lolcat
